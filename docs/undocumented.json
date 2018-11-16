@@ -1,0 +1,131 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/BELanguageService.swift",
+      "line": 33,
+      "symbol": "BELanguageService.getInstalledLanguages()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BEActiveDriver.swift",
+      "line": 54,
+      "symbol": "BEActiveDriver.parseClassName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BEActiveRide.swift",
+      "line": 32,
+      "symbol": "BEActiveRide.parseClassName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BELanguage.swift",
+      "line": 34,
+      "symbol": "BELanguage.parseClassName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BELanguage.swift",
+      "line": 45,
+      "symbol": "BELanguage.loadFromSaved(completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BELocation.swift",
+      "line": 40,
+      "symbol": "BELocation.parseClassName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BEMessage.swift",
+      "line": 38,
+      "symbol": "BEMessage.parseClassName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BENotification.swift",
+      "line": 12,
+      "symbol": "BENotification",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BENotification.swift",
+      "line": 25,
+      "symbol": "BENotification.parseClassName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BEPromoCode.swift",
+      "line": 81,
+      "symbol": "BEPromoCode.parseClassName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BERegion.swift",
+      "line": 31,
+      "symbol": "BERegion.parseClassName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BERegion.swift",
+      "line": 35,
+      "symbol": "BERegion.displayAddress()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BERide.swift",
+      "line": 187,
+      "symbol": "BERide.parseClassName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BESurgeRegion.swift",
+      "line": 31,
+      "symbol": "BESurgeRegion.parseClassName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BESurgeRegion.swift",
+      "line": 35,
+      "symbol": "BESurgeRegion.displayAddress()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BEVehicle.swift",
+      "line": 77,
+      "symbol": "BEVehicleType.defaultIcon()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BEVehicle.swift",
+      "line": 126,
+      "symbol": "BEVehicle.parseClassName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/Be/BeSDK/Models/BEVehicleFare.swift",
+      "line": 34,
+      "symbol": "BEVehicleFare.parseClassName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/namkennic/Projects/Be"
+}

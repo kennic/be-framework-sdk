@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BEOperatorService Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/BEOperatorService" class="dashAnchor"></a>
+    <a title="BEOperatorService Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (96% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        BEOperatorService Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BEAccountManager.html">BEAccountManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BEActiveDriver.html">BEActiveDriver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BEActiveRide.html">BEActiveRide</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BEDriverService.html">BEDriverService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BEGuestRideService.html">BEGuestRideService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BELanguage.html">BELanguage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BELanguageService.html">BELanguageService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BELocation.html">BELocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BELocationManager.html">BELocationManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BEMessage.html">BEMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BEMessageService.html">BEMessageService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BENearbyDriversManager.html">BENearbyDriversManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BENearbyRidesManager.html">BENearbyRidesManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BENotification.html">BENotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BENotificationService.html">BENotificationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BEOperatorService.html">BEOperatorService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BEPromoCode.html">BEPromoCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BEPromoCodeService.html">BEPromoCodeService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BEPushService.html">BEPushService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BERegion.html">BERegion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BERide.html">BERide</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BERiderService.html">BERiderService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BERouteService.html">BERouteService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BESurgeRegion.html">BESurgeRegion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BEVehicle.html">BEVehicle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BEVehicleFare.html">BEVehicleFare</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BEVehicleManager.html">BEVehicleManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeSDK.html">BeSDK</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:2Be9SDK_BUILDSSvp">SDK_BUILD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:2Be11SDK_VERSIONSSvp">SDK_VERSION</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BEActiveDriverStatus.html">BEActiveDriverStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BEArriveStatus.html">BEArriveStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BEDateRange.html">BEDateRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BEDocumentType.html">BEDocumentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BELocationType.html">BELocationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BEMapLanguage.html">BEMapLanguage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BEMessageStatus.html">BEMessageStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BEPaymentMethod.html">BEPaymentMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BERideStatus.html">BERideStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BERouteTripMode.html">BERouteTripMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BEVehicleType.html">BEVehicleType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Notification.html">Notification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Notification/Name.html">– Name</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/BEFareItem.html">BEFareItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BELocationPoint.html">BELocationPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BERideRequest.html">BERideRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BETripRoute.html">BETripRoute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BETripSegment.html">BETripSegment</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BEOperatorService</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">BEOperatorService</span></code></pre>
+
+                </div>
+              </div>
+            <p>Class quản lý hệ thống</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2Be17BEOperatorServiceC6sharedACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/shared" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2Be17BEOperatorServiceC6sharedACvpZ">shared</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Singleton instance</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">public</span> <span class="k">let</span> <span class="nv">shared</span> <span class="o">=</span> <span class="kt">BEOperatorService</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2Be17BEOperatorServiceC18getAllVehicleFares6offset5limit15completionBlockySi_SiySayAA13BEVehicleFareCGSg_s5Error_pSgtctF"></a>
+                    <a name="//apple_ref/swift/Method/getAllVehicleFares(offset:limit:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2Be17BEOperatorServiceC18getAllVehicleFares6offset5limit15completionBlockySi_SiySayAA13BEVehicleFareCGSg_s5Error_pSgtctF">getAllVehicleFares(offset:limit:completionBlock:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Tải danh sách các loại phương tiện kèm cước phí</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getAllVehicleFares</span><span class="p">(</span><span class="nv">offset</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">limit</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1000</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(([</span><span class="kt"><a href="../Classes/BEVehicleFare.html">BEVehicleFare</a></span><span class="p">]?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">))</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>offset</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>offset bắt đầu</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>limit</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>số lượng kết quả giới hạn</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Block được gọi khi có kết quả, trả về mảng [<code><a href="../Classes/BEVehicleFare.html">BEVehicleFare</a></code>], hoăc Error nếu có lỗi</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2Be17BEOperatorServiceC18getAllSurgeRegions6offset5limit15completionBlockySi_SiySayAA13BESurgeRegionCGSg_s5Error_pSgtctF"></a>
+                    <a name="//apple_ref/swift/Method/getAllSurgeRegions(offset:limit:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2Be17BEOperatorServiceC18getAllSurgeRegions6offset5limit15completionBlockySi_SiySayAA13BESurgeRegionCGSg_s5Error_pSgtctF">getAllSurgeRegions(offset:limit:completionBlock:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Tải toàn bộ các vùng hoạt động</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getAllSurgeRegions</span><span class="p">(</span><span class="nv">offset</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">limit</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1000</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(([</span><span class="kt"><a href="../Classes/BESurgeRegion.html">BESurgeRegion</a></span><span class="p">]?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">))</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>offset</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>offset bắt đầu</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>limit</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>số lượng kết quả giới hạn</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Block được gọi khi có kết quả, trả về mảng [<code><a href="../Classes/BESurgeRegion.html">BESurgeRegion</a></code>], hoăc Error nếu có lỗi</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2Be17BEOperatorServiceC13getAllRegions6offset5limit15completionBlockySi_SiySayAA8BERegionCGSg_s5Error_pSgtctF"></a>
+                    <a name="//apple_ref/swift/Method/getAllRegions(offset:limit:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2Be17BEOperatorServiceC13getAllRegions6offset5limit15completionBlockySi_SiySayAA8BERegionCGSg_s5Error_pSgtctF">getAllRegions(offset:limit:completionBlock:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Tải tất cả các vùng hoạt động</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getAllRegions</span><span class="p">(</span><span class="nv">offset</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">limit</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1000</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(([</span><span class="kt"><a href="../Classes/BERegion.html">BERegion</a></span><span class="p">]?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">))</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>offset</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>offset bắt đầu</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>limit</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>số lượng kết quả giới hạn</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Block được gọi khi có kết quả, trả về mảng [<code><a href="../Classes/BERegion.html">BERegion</a></code>], hoăc Error nếu có lỗi</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2Be17BEOperatorServiceC16getAllPromoCodes6offset5limit15completionBlockySi_SiySayAA11BEPromoCodeCGSg_s5Error_pSgtctF"></a>
+                    <a name="//apple_ref/swift/Method/getAllPromoCodes(offset:limit:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2Be17BEOperatorServiceC16getAllPromoCodes6offset5limit15completionBlockySi_SiySayAA11BEPromoCodeCGSg_s5Error_pSgtctF">getAllPromoCodes(offset:limit:completionBlock:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Tải danh sách các mã khuyến mãi</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getAllPromoCodes</span><span class="p">(</span><span class="nv">offset</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">limit</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(([</span><span class="kt"><a href="../Classes/BEPromoCode.html">BEPromoCode</a></span><span class="p">]?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">))</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>offset</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>offset bắt đầu</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>limit</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>số lượng kết quả giới hạn</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Block được gọi khi có kết quả, trả về mảng <code><a href="../Classes/BEPromoCode.html">BEPromoCode</a></code>, hoăc Error nếu có lỗi</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/getAllDrivers(offset:limit:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">getAllDrivers(offset:limit:completionBlock:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Tải danh sách tài xế</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getAllDrivers</span><span class="p">(</span><span class="nv">offset</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">limit</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(([</span><span class="kt">PFUser</span><span class="p">]?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">))</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>offset</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>offset bắt đầu</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>limit</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>số lượng kết quả giới hạn</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Block được gọi khi có kết quả, trả về mảng <code>PFUser</code>, hoăc Error nếu có lỗi</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/setDocumentVerified(driverId:verified:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">setDocumentVerified(driverId:verified:completionBlock:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set giá trị giấy tờ của tài xế đã được duyệt hay chưa</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDocumentVerified</span><span class="p">(</span><span class="nv">driverId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">verified</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">((</span><span class="kt">PFUser</span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">))</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>driverId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>id</code> của tài xế</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>verified</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>true</code> nếu đã được đuyệt</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Block được gọi khi có kết quả, trả về <code>PFUser</code>, hoăc Error nếu có lỗi</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/sendMessage(_:to:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">sendMessage(_:to:completionBlock:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gửi tin nhắn đến tài xế</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">sendMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">to</span> <span class="nv">driver</span><span class="p">:</span> <span class="kt">PFUser</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="p">((</span><span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Nội dung tin nhắn</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>driver</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Tài xế cần gửi</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Block được gọi khi hoàn thành, kèm Error nếu có lỗi</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2Be17BEOperatorServiceC11getPolyline4from15completionBlockySS_ySaySaySdGGSg_s5Error_pSgtctF"></a>
+                    <a name="//apple_ref/swift/Method/getPolyline(from:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2Be17BEOperatorServiceC11getPolyline4from15completionBlockySS_ySaySaySdGGSg_s5Error_pSgtctF">getPolyline(from:completionBlock:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Tải cấu trúc tọa độ của 1 vùng</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getPolyline</span><span class="p">(</span><span class="n">from</span> <span class="nv">relationId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(([[</span><span class="kt">Double</span><span class="p">]]?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">))</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>relationId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>id</code> của vùng lấy từ <code>OpenStreetMap</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Block được gọi khi có kết quả, trả về mảng tọa độ vùng hoặc Error nếu có lỗi</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Nam Kennic</a>. All rights reserved. (Last updated: 2018-11-16)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
